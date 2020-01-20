@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-header div, .main-nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+.main-nav {
+    text-align: right;
+    width: calc(100% - 74px);
+}
+.main-nav__items {
+    margin: 0;
+    
+}
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;    
+}
+
+.main-nav__item a {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 4px solid white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    background: white;
+    border-bottom: none;
+}
+
+.button {
+    background: #0e4f1f;
+    color: whitesmoke;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: whitesmoke;
+    color: #0e4f1f;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.main-footer {
+    background-color: black;
+    margin-top: 48px;
+    padding: 32px;
+}
+
+.main-footer__links {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+}
+.main-footer__link a {
+    color: azure;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: grey;
+    padding-bottom: 4px;
+    border-bottom: 2px solid gray;
+}
