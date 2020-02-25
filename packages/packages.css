@@ -1,10 +1,19 @@
 main {
-    padding-top: 32px;
+    padding-top: 4rem;
+}
+
+.background {
+    background: url("../images/plans-background.jpg") center/cover;
+    filter: grayscale(40%);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
 }
 
 .package {
-    width: 70%;
-    margin: 16px 0;
+    width: 80%;
+    margin: 1rem 0;
     border: 4px solid #0e4f1f;
     border-left: none;
     position: relative;
@@ -13,13 +22,12 @@ main {
 .package:hover,
 .package:active {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    border-color: #ff5454 !important;
+    border-color: #ff5454;
 }
 
 .package a {
     color: inherit;
-    /* margin: 16px 0; */
-    padding: 32px;
+    padding: 2rem;
     display: block;
     text-decoration: none;
 }
@@ -38,12 +46,12 @@ main {
 
 .package_badge {
     position: absolute;
-    margin: 20px;
+    margin: 1.2rem;
     top: 30px;
-    font-size: 12px;
+    font-size: 0.8rem;
     color: white;
     background: #ff5454;
-    padding: 8px;
+    padding: 0.5rem;
     right: 0;
 }
 
@@ -55,10 +63,9 @@ main {
     border: 1px solid #0e4f1f;
     background-color: white;
     font: inherit;
-    padding: 16px;
-    font-size: 20px;
+    padding: 1rem;
+    font-size: 1.2rem;
     color: #0e4f1f;
-    /* margin: 0; */
 }
 
 .clearfix {
@@ -87,13 +94,4 @@ main {
 
 #premium .package__subtitle {
     color: #bbb;
-}
-
-.background {
-    background: url("../images/plans-background.jpg") center/cover;
-    filter: grayscale(40%);
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
 }
